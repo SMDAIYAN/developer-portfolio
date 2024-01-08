@@ -1,11 +1,131 @@
-*{
-    padding: 0;
-    margin: 0;
+* {
+  padding: 0;
+  margin: 0;
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap");
 
 /* shared styles */
 body {
-    font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
+}
+
+.primary-color {
+  color: #fd6e0a;
+}
+
+.primary-button {
+  border-radius: 5px;
+  background: #fd6e0a;
+  text-align: center;
+  font-family: Open Sans;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  color: white;
+  padding: 18px 35px;
+}
+
+/* nav bar */
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 230px;
+}
+
+nav .logo {
+  color: #181818;
+  font-size: 45px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+}
+
+.nav-content > ul {
+  display: flex;
+  align-items: center;
+}
+
+.i {
+  color: #fd6e0a;
+}
+
+ul > li {
+  list-style: none;
+  margin-left: 50px;
+}
+
+.nav-button {
+  padding: 18px 35px;
+}
+
+li > a {
+  color: #474747;
+  text-decoration: none;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+/* Header design*/
+
+header {
+  background: #fff8f3;
+  /* width: 1600px; */
+  padding-top: 50px;
+}
+
+.header-title {
+  font-size: 85px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  color: #181818;
+}
+
+.header-greeting {
+  color: #474747;
+  font-size: 45px;
+  font-style: normal;
+  font-weight: 600;
+}
+
+.header-description {
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  color: #757575;
+  width: 580px;
+}
+
+.header-button {
+  margin: 30px 0;
+}
+
+#btnh-1 {
+  margin-right: 30px;
+}
+
+#btnh-2 {
+  border: 1px solid #fd6e0a;
+  background-color: transparent;
+  color: #fd6e0a;
+}
+
+.header-container {
+  display: flex;
+
+}
+
+.header-texts {
+  margin: 180px 150px 70px 170px;
+}
+
+.profile-pic {
+  width: 584px;
+  height: 676px;
 }
