@@ -8,6 +8,7 @@
 /* shared styles */
 body {
   font-family: "Open Sans", sans-serif;
+  width: 1200px;
 }
 
 .primary-color {
@@ -217,7 +218,7 @@ main {
 }
 
 .skills {
-  padding: 30px;
+  padding: 20px;
   border-radius: 5px;
   box-shadow: 0 0 4px rgb(132, 126, 126);
 }
@@ -303,9 +304,8 @@ main {
 
 footer {
   display: flex;
-  width: 1400px;
   background: #fff8f3;
-  padding: 130px 230px;
+  padding: 130px 100px;
 }
 
 .footer-text {
